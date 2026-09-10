@@ -1,0 +1,8 @@
+print("My name is Ellie")
+print("Im 13")
+print("I play hockey at jr kraken")
+print("i like andrew garfeild spiderman")
+print("Lets talk about you")
+name = input("whats your name")
+print(f"Hi {name} ")
+input (f" how are you {name}")
