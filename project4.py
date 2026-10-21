@@ -8,7 +8,7 @@ Marvel_hidden = random.choice (mylist)
 #print (Marvel_hidden)
 #start of for loop 
 for i in range(5):
-    guess = input("Guess a maverl charater")
+    guess = input("Guess a marvel charater")
     if guess == Marvel_hidden:
         print("You got the charater good work")
         quit()
@@ -18,4 +18,9 @@ if guess == Marvel_hidden:
     print (" you got it good job ")
 # end of for loop 
 print (" I hope this marvel themed guessing game was fun")
-print (" Bye")
+question1 = input (" were you correct")
+if question1 == "yes" or "Yes":
+    print ("YaYYYY")
+if question1 == "no" or "No":
+    input (" Do you want to know what it was") 
+    print (Marvel_hidden)
