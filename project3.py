@@ -48,7 +48,10 @@ print(f" The score you got is {birthday_points} birthday, {halloween_points} hal
 
 if birthday_points > halloween_points and birthday_points > christmas_points: 
     print ("You are a birthday person, you like fun colorful things and are probely really cheerful")
+    #If the points Are manily A than it will be Birthday
 if halloween_points > birthday_points and halloween_points >christmas_points: 
     print("You are Hallween. your a little spooky but you also love fall and relxing")
+    #if anwsers/points are mainly B than you will get Halloween 
 if christmas_points > birthday_points and christmas_points > halloween_points: 
     print(" You are christmas. You like cozy days and love to winter and feeling jolly. ")
+    #if awnsers are mainly C than youll get Christmas
